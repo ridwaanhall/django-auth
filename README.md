@@ -1,5 +1,6 @@
 # Django Authentication
 
+## Steps
 1. Create virtual environment
    ```bash
    python -m venv venv
@@ -20,7 +21,7 @@
    python manage.py migrate
    ```
 
-5. Run on Replit
+5. Run on Replit or you can click run on replit
    ```bash
    python manage.py runserver
    ```
@@ -28,5 +29,13 @@
 ## Using Postman
 
 ### Signup
-Endpoint: `POST /signup`
-Request body:
+
+#### Endpoint: `POST /signup`
+#### Request body:
+    ```json
+    {
+        "username": "ridwaanhall",
+        "password": "12345678",
+        "email": "test@test.com"
+    }
+    ```
