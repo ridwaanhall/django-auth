@@ -32,10 +32,8 @@
 
 #### Endpoint: `POST /signup`
 #### Request body:
-    ```json
     {
         "username": "ridwaanhall",
         "password": "12345678",
         "email": "test@test.com"
     }
-    ```
