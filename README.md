@@ -28,8 +28,7 @@
 
 ## Using Postman
 
-### Signup
-
+1. Signup
 #### Endpoint: `POST /signup`
 #### Request body:
     {
@@ -37,3 +36,23 @@
         "password": "12345678",
         "email": "test@test.com"
     }
+#### Example Response:
+    {
+    "token": ""24581de39310e6c68a23e95edb3ec06de78331ec,
+    "user": {
+        "id": 2,
+        "username": "ridwaanhall1",
+        "password": "12345678",
+        "email": "test@test.com"
+    }
+}
+
+2. Login
+#### Endpoint: `POST /login`
+#### Request body:
+    {
+        "username": "ridwaanhall",
+        "password": "12345678"
+    }
+
+4. Testing Token
