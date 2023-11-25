@@ -12,7 +12,7 @@ POST https://django-auth.ridwaanhall.repl.co/signup Content-Type: application/js
 
 {
     "username": "ridwaanhall",
-    "password": "12345678"
+    "password": "12345678
 }
 
 ###
