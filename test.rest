@@ -1,0 +1,20 @@
+POST https://django-auth.ridwaanhall.repl.co/login
+Content-Type: application/json
+
+{
+    "username": "ridwaanhall",
+    "password": "12345678"
+}
+
+###
+
+POST https://django-auth.ridwaanhall.repl.co/signup Content-Type: application/json
+
+{
+    "username": "ridwaanhall",
+    "password": "12345678"
+}
+
+###
+
+GET https://django-auth.ridwaanhall.repl.co/test_token Content-Type: application/json Authorization: token 5d1b862860d3848be65150b30ee67d183bcad891
